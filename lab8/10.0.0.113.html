@@ -1,0 +1,540 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0083)file:///C:/Users/zhangyy/Downloads/report-4932ab50-2d8d-4d5c-9412-05b17f55a450.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<style>
+body {
+  background-color: #FFFFFF;
+  margin: 0px;
+  font: small Verdana, sans-serif;
+  font-size: 12px;
+  color: #1A1A1A;"
+}
+
+div.content {
+  width: 98%;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr.table_head {
+  background-color: #d5d5d5;
+}
+
+.diff {
+  white-space: pre;
+  font-family: monospace;
+}
+
+.diff.at {
+  color: #9932CC;
+}
+
+.diff.plus {
+  color: #006400;
+}
+
+.diff.minus {
+  color: #B22222;
+}
+
+div.footer {
+  text-align: center;
+}
+
+div.note, div.override {
+  padding:4px;
+  margin:3px;
+  margin-bottom:0px;
+  margin-top:0px;
+  border: 1px solid #CCCCCC;
+  border-top: 0px;
+  background-color: #ffff90;
+}
+
+.result_head {
+  padding:4px;
+  margin:3px;
+  margin-bottom:0px;
+  color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-bottom: 0px;
+  background:#d5d5d5;
+}
+
+.result_head.low {
+  background:#539dcb
+}
+
+.result_head.medium {
+  background:#f99f31
+}
+
+.result_head.high {
+  background:#cb1d17
+}
+
+.result_section {
+  padding:4px;
+  margin:3px;
+  margin-bottom:0px;
+  margin-top:0px;
+  border: 1px solid #CCCCCC;
+  border-top: 0px;
+}
+
+.location_float {
+  float: right;
+  text-align:right;
+}
+
+.delta_float {
+  float: left;
+  font-size: 24px;
+  border: 2px;
+  padding-left: 2px;
+  padding-right: 8px;
+  margin:0px;
+}
+
+.full_width {
+  width: 100%;
+}
+
+pre {
+ white-space: pre-wrap;
+ word-wrap: break-word;
+}
+        </style>
+<title>Scan Report</title>
+</head>
+<body><div class="content">
+<h1>Summary</h1>
+<p>
+          This document reports on the results of an automatic security scan.
+          The report first summarises the results found.  Then, for each host,
+          the report describes every issue found.  Please consider the
+          advice given in each description, in order to rectify the issue.
+        </p>
+<p>
+              Vendor security updates are not trusted.
+            </p>
+<p>
+              Overrides are on.  When a result has an override, this report uses the threat of the override.
+            </p>
+<p>
+              Information on overrides is included in the report.
+            </p>
+<p>
+              Notes are included in the report.
+            </p>
+<p>
+      This report might not show details of all issues that were found.
+      
+        It only lists hosts that produced issues.
+      
+        Issues with the threat level "Log" are not shown.
+      
+        Issues with the threat level "Debug" are not shown.
+      
+        Issues with the threat level "False Positive" are not shown.
+      Only results with a minimum QoD of 70 are shown. </p>
+<p>This report contains all 5 results selected by the filtering described above.  Before filtering there were 22 results.</p>
+<p>All dates are displayed using the timezone "Coordinated Universal Time", which is abbreviated "UTC".</p>
+<table>
+<tbody><tr>
+<td>Scan started:</td>
+<td><b>Mon Apr 3 22:44:29 2017 UTC</b></td>
+</tr>
+<tr>
+<td>Scan ended:</td>
+<td>Mon Apr 3 22:53:46 2017 UTC</td>
+</tr>
+<tr>
+<td>Task:</td>
+<td>windows machine</td>
+</tr>
+</tbody></table>
+<h2>Host Summary</h2>
+<table width="100%">
+<tbody><tr class="table_head">
+<td>Host</td>
+<td>Start</td>
+<td>End</td>
+<td>High</td>
+<td>Medium</td>
+<td>Low</td>
+<td>Log</td>
+<td>False Positive</td>
+</tr>
+<tr>
+<td><a href="file:///C:/Users/zhangyy/Downloads/report-4932ab50-2d8d-4d5c-9412-05b17f55a450.html#10.0.0.113">10.0.0.113 (knoxville.nslab)</a></td>
+<td>Apr 3, 22:44:45</td>
+<td>Apr 3, 22:53:46</td>
+<td>3</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Total: 1</td>
+<td></td>
+<td></td>
+<td>3</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody></table>
+<h1>Results per Host</h1>
+<h2 id="10.0.0.113">Host 10.0.0.113</h2>
+<table>
+<tbody><tr>
+<td>Scanning of this host started at:</td>
+<td>Mon Apr 3 22:44:45 2017 UTC</td>
+</tr>
+<tr>
+<td>Number of results:</td>
+<td>5</td>
+</tr>
+</tbody></table>
+<h3>Port Summary for Host 10.0.0.113</h3>
+<table width="100%">
+<tbody><tr class="table_head">
+<td>Service (Port)</td>
+<td>Threat Level</td>
+</tr>
+<tr>
+<td>445/tcp</td>
+<td>High</td>
+</tr>
+<tr>
+<td>135/tcp</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>80/tcp</td>
+<td>Medium</td>
+</tr>
+</tbody></table>
+<h3>Security Issues for Host 10.0.0.113</h3>
+<div class="result_head high">
+<div class="location_float">445/tcp</div>
+<b>High</b>
+                     (CVSS: 10.0)
+                  <div class="full_width">
+            NVT:
+            Vulnerabilities in SMB Could Allow Remote Code Execution (958687) - Remote
+            (OID: 1.3.6.1.4.1.25623.1.0.900233)
+          </div>
+</div>
+<div class="result_section">
+<b>Summary</b><p>This host is missing a critical security update according to
+  Microsoft Bulletin MS09-001.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Result</b><p>
+                    Vulnerability was detected according to the Vulnerability Detection Method.
+                  </p>
+</div>
+<div class="result_section">
+<b>Impact</b><p>Successful exploitation could allow remote unauthenticated attackers
+  to cause denying the service by sending a specially crafted network message
+  to a system running the server service.</p>
+<p>  Impact Level: System/Network</p>
+</div>
+<div class="result_section">
+<b>Solution</b><p><b>Solution type: </b>VendorFix</p>
+<p>Run Windows Update and update the listed hotfixes or download and
+  update mentioned hotfixes in the advisory from the below link,
+  http://www.microsoft.com/technet/security/bulletin/ms09-001.mspx</p>
+</div>
+<div class="result_section">
+<b>Affected Software/OS</b><p>Microsoft Windows 2K Service Pack 4 and prior.
+  Microsoft Windows XP Service Pack 3 and prior.
+  Microsoft Windows 2003 Service Pack 2 and prior.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Insight</b><p>The issue is due to the way Server Message Block (SMB) Protocol software
+  handles specially crafted SMB packets.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Method</b><p>
+            Details:
+            Vulnerabilities in SMB Could Allow Remote Code Execution (958687) - Remote
+                (OID: 1.3.6.1.4.1.25623.1.0.900233)
+              </p>
+<p>
+                  Version used: $Revision: 5502 $</p>
+</div>
+<div class="result_section">
+<b>References</b><br><p></p><table>
+<tbody><tr valign="top">
+<td>CVE:</td>
+<td>CVE-2008-4114, CVE-2008-4834, CVE-2008-4835</td>
+</tr>
+<tr valign="top">
+<td>BID:</td>
+<td>31179</td>
+</tr>
+<tr valign="top">
+<td>Other:</td>
+<td>http://www.milw0rm.com/exploits/6463</td>
+</tr>
+<tr valign="top">
+<td></td>
+<td>http://www.microsoft.com/technet/security/bulletin/ms09-001.mspx</td>
+</tr>
+</tbody></table><p></p>
+</div>
+<div class="result_head high">
+<div class="location_float">445/tcp</div>
+<b>High</b>
+                     (CVSS: 10.0)
+                  <div class="full_width">
+            NVT:
+            SMBv1 Unspecified Remote Code Execution (Shadow Brokers)
+            (OID: 1.3.6.1.4.1.25623.1.0.140151)
+          </div>
+</div>
+<div class="result_section">
+<b>Summary</b><p>The remote Windows host is prone to an unspecified remote code execution vulnerability in SMBv1 protocol.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Result</b><p>
+                    Vulnerability was detected according to the Vulnerability Detection Method.
+                  </p>
+</div>
+<div class="result_section">
+<b>Solution</b><p><b>Solution type: </b>Workaround</p>
+<p>Disable SMB v1 and/or block all versions of SMB at the network boundary by blocking TCP port 445 with related protocols on UDP ports 137-138 and TCP port 139, for all boundary devices.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Insight</b><p>The remote Windows host is supporting SMBv1 and is therefore prone to an unspecified remote code execution vulnerability. This vulnerability is related to the `Shadow Brokers` group.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Method</b><p>
+            Details:
+            SMBv1 Unspecified Remote Code Execution (Shadow Brokers)
+                (OID: 1.3.6.1.4.1.25623.1.0.140151)
+              </p>
+<p>
+                  Version used: $Revision: 5455 $</p>
+</div>
+<div class="result_section">
+<b>References</b><br><p></p><table>
+<tbody><tr valign="top">
+<td>Other:</td>
+<td>https://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices</td>
+</tr>
+<tr valign="top">
+<td></td>
+<td>https://support.microsoft.com/en-us/kb/2696547</td>
+</tr>
+<tr valign="top">
+<td></td>
+<td>https://support.microsoft.com/en-us/kb/204279</td>
+</tr>
+</tbody></table><p></p>
+</div>
+<div class="result_head high">
+<div class="location_float">445/tcp</div>
+<b>High</b>
+                     (CVSS: 10.0)
+                  <div class="full_width">
+            NVT:
+            Microsoft Windows SMB Server NTLM Multiple Vulnerabilities (971468)
+            (OID: 1.3.6.1.4.1.25623.1.0.902269)
+          </div>
+</div>
+<div class="result_section">
+<b>Summary</b><p>This host is missing a critical security update according to
+  Microsoft Bulletin MS10-012.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Result</b><p>
+                    Vulnerability was detected according to the Vulnerability Detection Method.
+                  </p>
+</div>
+<div class="result_section">
+<b>Impact</b><p>Successful exploitation will allow remote attackers to execute arbitrary
+  code or cause a denial of service or bypass the authentication mechanism
+  via brute force technique.
+  Impact Level: System/Application</p>
+</div>
+<div class="result_section">
+<b>Solution</b><p><b>Solution type: </b>VendorFix</p>
+<p>Run Windows Update and update the listed hotfixes or download and
+  update mentioned hotfixes in the advisory from the below link,
+  http://www.microsoft.com/technet/security/bulletin/ms10-012.mspx</p>
+</div>
+<div class="result_section">
+<b>Affected Software/OS</b><p>Microsoft Windows 7
+  Microsoft Windows 2000 Service Pack and prior
+  Microsoft Windows XP Service Pack 3 and prior
+  Microsoft Windows Vista Service Pack 2 and prior
+  Microsoft Windows Server 2003 Service Pack 2 and prior
+  Microsoft Windows Server 2008 Service Pack 2 and prior</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Insight</b><p>- An input validation error exists while processing SMB requests and can
+    be exploited to cause a buffer overflow via a specially crafted SMB packet.
+  - An error exists in the SMB implementation while parsing SMB packets during
+    the Negotiate phase causing memory corruption via a specially crafted SMB
+    packet.
+  - NULL pointer dereference error exists in SMB while verifying the 'share'
+    and 'servername' fields in SMB packets causing denial of service.
+  - A lack of cryptographic entropy when the SMB server generates challenges
+    during SMB NTLM authentication and can be exploited to bypass the
+    authentication mechanism.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Method</b><p>
+            Details:
+            Microsoft Windows SMB Server NTLM Multiple Vulnerabilities (971468)
+                (OID: 1.3.6.1.4.1.25623.1.0.902269)
+              </p>
+<p>
+                  Version used: $Revision: 5437 $</p>
+</div>
+<div class="result_section">
+<b>References</b><br><p></p><table>
+<tbody><tr valign="top">
+<td>CVE:</td>
+<td>CVE-2010-0020, CVE-2010-0021, CVE-2010-0022, CVE-2010-0231</td>
+</tr>
+<tr valign="top">
+<td>CERT:</td>
+<td>DFN-CERT-2010-0192</td>
+</tr>
+<tr valign="top">
+<td>Other:</td>
+<td>http://secunia.com/advisories/38510/</td>
+</tr>
+<tr valign="top">
+<td></td>
+<td>http://support.microsoft.com/kb/971468</td>
+</tr>
+<tr valign="top">
+<td></td>
+<td>http://www.vupen.com/english/advisories/2010/0345</td>
+</tr>
+<tr valign="top">
+<td></td>
+<td>http://www.microsoft.com/technet/security/bulletin/ms10-012.mspx</td>
+</tr>
+</tbody></table><p></p>
+</div>
+<div class="result_head medium">
+<div class="location_float">80/tcp</div>
+<b>Medium</b>
+                     (CVSS: 5.0)
+                  <div class="full_width">
+            NVT:
+            IIS Service Pack - 404
+            (OID: 1.3.6.1.4.1.25623.1.0.11874)
+          </div>
+</div>
+<div class="result_section">
+            Product detection result:
+            cpe:/a:microsoft:iis:6.0
+            by
+            Microsoft IIS Webserver Version Detection
+            (OID: 1.3.6.1.4.1.25623.1.0.900710)
+          </div>
+<div class="result_section">
+<b>Summary</b><p>Ensure that the server is running the latest stable Service Pack</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Result</b><pre>The remote IIS server *seems* to be Microsoft IIS 6.0 - w2k3 build 3790</pre>
+</div>
+<div class="result_section">
+<b>Solution</b><p><b>Solution type: </b>VendorFix</p>
+<p>The Patch level (Service Pack) of the remote IIS server appears to be lower
+  than the current IIS service pack level. As each service pack typically
+  contains many security patches, the server may be at risk.</p>
+<p>  Caveat: This test makes assumptions of the remote patch level based on static
+  return values (Content-Length) within the IIS Servers 404 error message.
+  As such, the test can not be totally reliable and should be manually confirmed.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Method</b><p>
+            Details:
+            IIS Service Pack - 404
+                (OID: 1.3.6.1.4.1.25623.1.0.11874)
+              </p>
+<p>
+                  Version used: $Revision: 4703 $</p>
+</div>
+<div class="result_section">
+<b>Product Detection Result</b><p></p><table>
+<tbody><tr>
+<td>Product:</td>
+<td>cpe:/a:microsoft:iis:6.0</td>
+</tr>
+<tr>
+<td>Method:</td>
+<td>Microsoft IIS Webserver Version Detection
+                    (OID: 1.3.6.1.4.1.25623.1.0.900710)
+                  </td>
+</tr>
+</tbody></table><p></p>
+</div>
+<div class="result_head medium">
+<div class="location_float">135/tcp</div>
+<b>Medium</b>
+                     (CVSS: 5.0)
+                  <div class="full_width">
+            NVT:
+            DCE Services Enumeration Reporting
+            (OID: 1.3.6.1.4.1.25623.1.0.10736)
+          </div>
+</div>
+<div class="result_section">
+<b>Summary</b><p>Distributed Computing Environment (DCE) services running on the remote host
+  can be enumerated by connecting on port 135 and doing the appropriate queries.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Result</b><pre>Here is the list of DCE services running on this host via the TCP protocol:
+
+Port: 1025/tcp
+
+     UUID: 906b0ce0-c70b-1067-b317-00dd010662da, version 1
+     Endpoint: ncacn_ip_tcp:10.0.0.113[1025]
+
+Port: 1027/tcp
+
+     UUID: 12345778-1234-abcd-ef00-0123456789ac, version 1
+     Endpoint: ncacn_ip_tcp:10.0.0.113[1027]
+     Named pipe : lsass
+     Win32 service or process : lsass.exe
+     Description : SAM access
+
+Note: DCE services running on this host locally were identified. Reporting this list is not enabled by default due to the possible large size of this list. See the script preferences to enable this reporting.</pre>
+</div>
+<div class="result_section">
+<b>Impact</b><p>An attacker may use this fact to gain more knowledge
+  about the remote host.</p>
+</div>
+<div class="result_section">
+<b>Solution</b><p><b>Solution type: </b>Mitigation</p>
+<p>Filter incoming traffic to this port.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Method</b><p>
+            Details:
+            DCE Services Enumeration Reporting
+                (OID: 1.3.6.1.4.1.25623.1.0.10736)
+              </p>
+<p>
+                  Version used: $Revision: 4998 $</p>
+</div>
+<div class="footer">
+                  This file was automatically generated.
+                </div>
+</div>
+
+</body></html>

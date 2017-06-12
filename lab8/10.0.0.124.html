@@ -1,0 +1,630 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0083)file:///C:/Users/zhangyy/Downloads/report-1f2c6b9e-d9f3-4b73-acd0-3989f7275909.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<style>
+body {
+  background-color: #FFFFFF;
+  margin: 0px;
+  font: small Verdana, sans-serif;
+  font-size: 12px;
+  color: #1A1A1A;"
+}
+
+div.content {
+  width: 98%;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr.table_head {
+  background-color: #d5d5d5;
+}
+
+.diff {
+  white-space: pre;
+  font-family: monospace;
+}
+
+.diff.at {
+  color: #9932CC;
+}
+
+.diff.plus {
+  color: #006400;
+}
+
+.diff.minus {
+  color: #B22222;
+}
+
+div.footer {
+  text-align: center;
+}
+
+div.note, div.override {
+  padding:4px;
+  margin:3px;
+  margin-bottom:0px;
+  margin-top:0px;
+  border: 1px solid #CCCCCC;
+  border-top: 0px;
+  background-color: #ffff90;
+}
+
+.result_head {
+  padding:4px;
+  margin:3px;
+  margin-bottom:0px;
+  color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-bottom: 0px;
+  background:#d5d5d5;
+}
+
+.result_head.low {
+  background:#539dcb
+}
+
+.result_head.medium {
+  background:#f99f31
+}
+
+.result_head.high {
+  background:#cb1d17
+}
+
+.result_section {
+  padding:4px;
+  margin:3px;
+  margin-bottom:0px;
+  margin-top:0px;
+  border: 1px solid #CCCCCC;
+  border-top: 0px;
+}
+
+.location_float {
+  float: right;
+  text-align:right;
+}
+
+.delta_float {
+  float: left;
+  font-size: 24px;
+  border: 2px;
+  padding-left: 2px;
+  padding-right: 8px;
+  margin:0px;
+}
+
+.full_width {
+  width: 100%;
+}
+
+pre {
+ white-space: pre-wrap;
+ word-wrap: break-word;
+}
+        </style>
+<title>Scan Report</title>
+</head>
+<body><div class="content">
+<h1>Summary</h1>
+<p>
+          This document reports on the results of an automatic security scan.
+          The report first summarises the results found.  Then, for each host,
+          the report describes every issue found.  Please consider the
+          advice given in each description, in order to rectify the issue.
+        </p>
+<p>
+              Vendor security updates are not trusted.
+            </p>
+<p>
+              Overrides are on.  When a result has an override, this report uses the threat of the override.
+            </p>
+<p>
+              Information on overrides is included in the report.
+            </p>
+<p>
+              Notes are included in the report.
+            </p>
+<p>
+      This report might not show details of all issues that were found.
+      
+        It only lists hosts that produced issues.
+      
+        Issues with the threat level "Log" are not shown.
+      
+        Issues with the threat level "Debug" are not shown.
+      
+        Issues with the threat level "False Positive" are not shown.
+      Only results with a minimum QoD of 70 are shown. </p>
+<p>This report contains all 7 results selected by the filtering described above.  Before filtering there were 110 results.</p>
+<p>All dates are displayed using the timezone "Coordinated Universal Time", which is abbreviated "UTC".</p>
+<table>
+<tbody><tr>
+<td>Scan started:</td>
+<td><b>Mon Apr 3 22:45:57 2017 UTC</b></td>
+</tr>
+<tr>
+<td>Scan ended:</td>
+<td>Mon Apr 3 23:11:58 2017 UTC</td>
+</tr>
+<tr>
+<td>Task:</td>
+<td>Immediate scan of IP 10.0.0.124</td>
+</tr>
+</tbody></table>
+<h2>Host Summary</h2>
+<table width="100%">
+<tbody><tr class="table_head">
+<td>Host</td>
+<td>Start</td>
+<td>End</td>
+<td>High</td>
+<td>Medium</td>
+<td>Low</td>
+<td>Log</td>
+<td>False Positive</td>
+</tr>
+<tr>
+<td><a href="file:///C:/Users/zhangyy/Downloads/report-1f2c6b9e-d9f3-4b73-acd0-3989f7275909.html#10.0.0.124">10.0.0.124 (chicago.nslab)</a></td>
+<td>Apr 3, 22:47:22</td>
+<td>Apr 3, 23:11:58</td>
+<td>1</td>
+<td>3</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Total: 1</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>3</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody></table>
+<h1>Results per Host</h1>
+<h2 id="10.0.0.124">Host 10.0.0.124</h2>
+<table>
+<tbody><tr>
+<td>Scanning of this host started at:</td>
+<td>Mon Apr 3 22:47:22 2017 UTC</td>
+</tr>
+<tr>
+<td>Number of results:</td>
+<td>7</td>
+</tr>
+</tbody></table>
+<h3>Port Summary for Host 10.0.0.124</h3>
+<table width="100%">
+<tbody><tr class="table_head">
+<td>Service (Port)</td>
+<td>Threat Level</td>
+</tr>
+<tr>
+<td>22/tcp</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>80/tcp</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>general/tcp</td>
+<td>High</td>
+</tr>
+</tbody></table>
+<h3>Security Issues for Host 10.0.0.124</h3>
+<div class="result_head high">
+<div class="location_float">general/tcp</div>
+<b>High</b>
+                     (CVSS: 10.0)
+                  <div class="full_width">
+            NVT:
+            OS End Of Life Detection
+            (OID: 1.3.6.1.4.1.25623.1.0.103674)
+          </div>
+</div>
+<div class="result_section">
+<b>Summary</b><p>OS End Of Life Detection</p>
+<p>  The Operating System on the remote host has reached the end of life and should
+  not be used anymore</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Result</b><pre>The Operating System (cpe:/o:debian:debian_linux:6.0) on the remote host has reached the end of life at 29 Feb 2016
+and should not be used anymore.
+See https://en.wikipedia.org/wiki/List_of_Debian_releases#Release_table for more information.</pre>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Method</b><p>
+            Details:
+            OS End Of Life Detection
+                (OID: 1.3.6.1.4.1.25623.1.0.103674)
+              </p>
+<p>
+                  Version used: $Revision: 5464 $</p>
+</div>
+<div class="result_head medium">
+<div class="location_float">80/tcp</div>
+<b>Medium</b>
+                     (CVSS: 5.8)
+                  <div class="full_width">
+            NVT:
+            http TRACE XSS attack
+            (OID: 1.3.6.1.4.1.25623.1.0.11213)
+          </div>
+</div>
+<div class="result_section">
+<b>Summary</b><p>Debugging functions are enabled on the remote HTTP server.</p>
+<p>The remote webserver supports the TRACE and/or TRACK methods. TRACE and TRACK
+are HTTP methods which are used to debug web server connections.   </p>
+<p>It has been shown that servers supporting this method are subject to
+cross-site-scripting attacks, dubbed XST for Cross-Site-Tracing, when
+used in conjunction with various weaknesses in browsers. </p>
+<p>An attacker may use this flaw to trick your legitimate web users to give
+him their credentials.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Result</b><pre>Solution: 
+Add the following lines for each virtual host in your configuration file :
+
+    RewriteEngine on
+    RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
+    RewriteRule .* - [F]
+
+See also http://httpd.apache.org/docs/current/de/mod/core.html#traceenable</pre>
+</div>
+<div class="result_section">
+<b>Solution</b><p>Disable these methods.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Method</b><p>
+            Details:
+            http TRACE XSS attack
+                (OID: 1.3.6.1.4.1.25623.1.0.11213)
+              </p>
+<p>
+                  Version used: $Revision: 3362 $</p>
+</div>
+<div class="result_section">
+<b>References</b><br><p></p><table>
+<tbody><tr valign="top">
+<td>CVE:</td>
+<td>CVE-2004-2320, CVE-2003-1567</td>
+</tr>
+<tr valign="top">
+<td>BID:</td>
+<td>9506,  9561,  11604</td>
+</tr>
+<tr valign="top">
+<td>CERT:</td>
+<td>CB-K14/0981, DFN-CERT-2014-1018</td>
+</tr>
+<tr valign="top">
+<td>Other:</td>
+<td>http://www.kb.cert.org/vuls/id/867593</td>
+</tr>
+</tbody></table><p></p>
+</div>
+<div class="result_head medium">
+<div class="location_float">22/tcp</div>
+<b>Medium</b>
+                     (CVSS: 4.3)
+                  <div class="full_width">
+            NVT:
+            SSH Weak Encryption Algorithms Supported
+            (OID: 1.3.6.1.4.1.25623.1.0.105611)
+          </div>
+</div>
+<div class="result_section">
+<b>Summary</b><p>The remote SSH server is configured to allow weak encryption algorithms.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Result</b><pre>The following weak client-to-server encryption algorithms are supported by the remote service:
+
+3des-cbc
+aes128-cbc
+aes192-cbc
+aes256-cbc
+arcfour
+arcfour128
+arcfour256
+blowfish-cbc
+cast128-cbc
+rijndael-cbc@lysator.liu.se
+
+
+The following weak server-to-client encryption algorithms are supported by the remote service:
+
+3des-cbc
+aes128-cbc
+aes192-cbc
+aes256-cbc
+arcfour
+arcfour128
+arcfour256
+blowfish-cbc
+cast128-cbc
+rijndael-cbc@lysator.liu.se</pre>
+</div>
+<div class="result_section">
+<b>Solution</b><p><b>Solution type: </b>Mitigation</p>
+<p>Disable the weak encryption algorithms.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Insight</b><p>The `arcfour` cipher is the Arcfour stream cipher with 128-bit keys.
+  The Arcfour cipher is believed to be compatible with the RC4 cipher [SCHNEIER].  Arcfour (and RC4) has problems
+  with weak keys, and should not be used anymore.</p>
+<p>  The `none` algorithm specifies that no encryption is to be done.
+  Note that this method provides no confidentiality protection, and it
+  is NOT RECOMMENDED to use it.</p>
+<p>  A vulnerability exists in SSH messages that employ CBC mode that may allow an attacker to recover plaintext from a block of ciphertext.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Method</b><p>Check if remote ssh service supports Arcfour, none or CBC ciphers.</p>
+<p>
+            Details:
+            SSH Weak Encryption Algorithms Supported
+                (OID: 1.3.6.1.4.1.25623.1.0.105611)
+              </p>
+<p>
+                  Version used: $Revision: 4490 $</p>
+</div>
+<div class="result_section">
+<b>References</b><br><p></p><table>
+<tbody><tr valign="top">
+<td>Other:</td>
+<td>https://tools.ietf.org/html/rfc4253#section-6.3</td>
+</tr>
+<tr valign="top">
+<td></td>
+<td>https://www.kb.cert.org/vuls/id/958563</td>
+</tr>
+</tbody></table><p></p>
+</div>
+<div class="result_head medium">
+<div class="location_float">80/tcp</div>
+<b>Medium</b>
+                     (CVSS: 4.3)
+                  <div class="full_width">
+            NVT:
+            Apache Web Server ETag Header Information Disclosure Weakness
+            (OID: 1.3.6.1.4.1.25623.1.0.103122)
+          </div>
+</div>
+<div class="result_section">
+<b>Summary</b><p>A weakness has been discovered in Apache web servers that are
+ configured to use the FileETag directive.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Result</b><pre>Information that was gathered:
+Inode: 101300
+Size: 45</pre>
+</div>
+<div class="result_section">
+<b>Impact</b><p>Exploitation of this issue may provide an attacker with information
+ that may be used to launch further attacks against a target network.</p>
+</div>
+<div class="result_section">
+<b>Solution</b><p>OpenBSD has released a patch that addresses this issue. Inode numbers
+ returned from the server are now encoded using a private hash to avoid
+ the release of sensitive information.</p>
+<p> Novell has released TID10090670 to advise users to apply the available
+ workaround of disabling the directive in the configuration file for
+ Apache releases on NetWare. Please see the attached Technical
+ Information Document for further details.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Method</b><p>Due to the way in which
+ Apache generates ETag response headers, it may be possible for an
+ attacker to obtain sensitive information regarding server files.
+ Specifically, ETag header fields returned to a client contain the
+ file's inode number.</p>
+<p>
+            Details:
+            Apache Web Server ETag Header Information Disclosure Weakness
+                (OID: 1.3.6.1.4.1.25623.1.0.103122)
+              </p>
+<p>
+                  Version used: $Revision: 5424 $</p>
+</div>
+<div class="result_section">
+<b>References</b><br><p></p><table>
+<tbody><tr valign="top">
+<td>CVE:</td>
+<td>CVE-2003-1418</td>
+</tr>
+<tr valign="top">
+<td>BID:</td>
+<td>6939</td>
+</tr>
+<tr valign="top">
+<td>CERT:</td>
+<td>CB-K15/0469, DFN-CERT-2015-0495</td>
+</tr>
+<tr valign="top">
+<td>Other:</td>
+<td>https://www.securityfocus.com/bid/6939</td>
+</tr>
+<tr valign="top">
+<td></td>
+<td>http://httpd.apache.org/docs/mod/core.html#fileetag</td>
+</tr>
+<tr valign="top">
+<td></td>
+<td>http://www.openbsd.org/errata32.html</td>
+</tr>
+<tr valign="top">
+<td></td>
+<td>http://support.novell.com/docs/Tids/Solutions/10090670.html</td>
+</tr>
+</tbody></table><p></p>
+</div>
+<div class="result_head low">
+<div class="location_float">general/tcp</div>
+<b>Low</b>
+                     (CVSS: 2.6)
+                  <div class="full_width">
+            NVT:
+            TCP timestamps
+            (OID: 1.3.6.1.4.1.25623.1.0.80091)
+          </div>
+</div>
+<div class="result_section">
+<b>Summary</b><p>The remote host implements TCP timestamps and therefore allows to compute
+  the uptime.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Result</b><pre>It was detected that the host implements RFC1323.</pre>
+</div>
+<div class="result_section">
+<b>Impact</b><p>A side effect of this feature is that the uptime of the remote
+  host can sometimes be computed.</p>
+</div>
+<div class="result_section">
+<b>Solution</b><p><b>Solution type: </b>Mitigation</p>
+<p>To disable TCP timestamps on linux add the line 'net.ipv4.tcp_timestamps = 0' to
+  /etc/sysctl.conf. Execute 'sysctl -p' to apply the settings at runtime.</p>
+<p>  To disable TCP timestamps on Windows execute 'netsh int tcp set global timestamps=disabled'</p>
+<p>  Starting with Windows Server 2008 and Vista, the timestamp can not be completely disabled.</p>
+<p>  The default behavior of the TCP/IP stack on this Systems is, to not use the
+  Timestamp options when initiating TCP connections, but use them if the TCP peer
+  that is initiating communication includes them in their synchronize (SYN) segment.</p>
+<p>  See also: http://www.microsoft.com/en-us/download/details.aspx?id=9152</p>
+</div>
+<div class="result_section">
+<b>Affected Software/OS</b><p>TCP/IPv4 implementations that implement RFC1323.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Insight</b><p>The remote host implements TCP timestamps, as defined by RFC1323.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Method</b><p>Special IP packets are forged and sent with a little delay in between to the
+  target IP. The responses are searched for a timestamps. If found, the timestamps are reported.</p>
+<p>
+            Details:
+            TCP timestamps
+                (OID: 1.3.6.1.4.1.25623.1.0.80091)
+              </p>
+<p>
+                  Version used: $Revision: 5309 $</p>
+</div>
+<div class="result_section">
+<b>References</b><br><p></p><table><tbody><tr valign="top">
+<td>Other:</td>
+<td>http://www.ietf.org/rfc/rfc1323.txt</td>
+</tr></tbody></table><p></p>
+</div>
+<div class="result_head low">
+<div class="location_float">22/tcp</div>
+<b>Low</b>
+                     (CVSS: 2.6)
+                  <div class="full_width">
+            NVT:
+            SSH Weak MAC Algorithms Supported
+            (OID: 1.3.6.1.4.1.25623.1.0.105610)
+          </div>
+</div>
+<div class="result_section">
+<b>Summary</b><p>The remote SSH server is configured to allow weak MD5 and/or 96-bit MAC algorithms.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Result</b><pre>The following weak client-to-server MAC algorithms are supported by the remote service:
+
+hmac-md5
+hmac-md5-96
+hmac-sha1-96
+
+
+The following weak server-to-client MAC algorithms are supported by the remote service:
+
+hmac-md5
+hmac-md5-96
+hmac-sha1-96</pre>
+</div>
+<div class="result_section">
+<b>Solution</b><p><b>Solution type: </b>Mitigation</p>
+<p>Disable the weak MAC algorithms.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Method</b><p>
+            Details:
+            SSH Weak MAC Algorithms Supported
+                (OID: 1.3.6.1.4.1.25623.1.0.105610)
+              </p>
+<p>
+                  Version used: $Revision: 4490 $</p>
+</div>
+<div class="result_head low">
+<div class="location_float">80/tcp</div>
+<b>Low</b>
+                     (CVSS: 2.6)
+                  <div class="full_width">
+            NVT:
+            Apache mod_perl 'Apache::Status' and 'Apache2::Status' Cross Site Scripting Vul...
+                
+            (OID: 1.3.6.1.4.1.25623.1.0.100130)
+          </div>
+</div>
+<div class="result_section">
+<b>Summary</b><p>According to its version number, the remote version of the Apache
+  mod_perl module is prone to a cross-site scripting vulnerability
+  because it fails to sufficiently sanitize user-supplied data.</p>
+<p>  An attacker may leverage this issue to execute arbitrary script code
+  in the browser of an unsuspecting user in the context of the
+  affected site. This may allow the attacker to steal cookie-based
+  authentication credentials and to launch other attacks.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Result</b><p>
+                    Vulnerability was detected according to the Vulnerability Detection Method.
+                  </p>
+</div>
+<div class="result_section">
+<b>Solution</b><p>The vendor has released a fix through the SVN repository.</p>
+</div>
+<div class="result_section">
+<b>Vulnerability Detection Method</b><p>
+            Details:
+            <abbr title="Apache mod_perl &#39;Apache::Status&#39; and &#39;Apache2::Status&#39; Cross Site Scripting Vulnerability (1.3.6.1.4.1.25623.1.0.100130)">Apache mod_perl 'Apache::Status' and 'Apache2::Status' Cross Site Scripting Vul...</abbr>
+                (OID: 1.3.6.1.4.1.25623.1.0.100130)
+              </p>
+<p>
+                  Version used: $Revision: 5002 $</p>
+</div>
+<div class="result_section">
+<b>References</b><br><p></p><table>
+<tbody><tr valign="top">
+<td>CVE:</td>
+<td>CVE-2009-0796</td>
+</tr>
+<tr valign="top">
+<td>BID:</td>
+<td>34383</td>
+</tr>
+<tr valign="top">
+<td>CERT:</td>
+<td>DFN-CERT-2009-1816, DFN-CERT-2009-1576, DFN-CERT-2009-0490</td>
+</tr>
+<tr valign="top">
+<td>Other:</td>
+<td>http://www.securityfocus.com/bid/34383</td>
+</tr>
+<tr valign="top">
+<td></td>
+<td>http://mail-archives.apache.org/mod_mbox/perl-advocacy/200904.mbox/&lt;ad28918e0904011458h273a71d4x408f1ed286c9dfbc@mail.gmail.com&gt;</td>
+</tr>
+</tbody></table><p></p>
+</div>
+<div class="footer">
+                  This file was automatically generated.
+                </div>
+</div>
+
+</body></html>
